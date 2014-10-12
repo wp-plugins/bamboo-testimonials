@@ -52,7 +52,7 @@ Description: Easily manage testimonials and display them throughout your website
 
 		global $post_type;
 
-		if( is_admin() && 'testimonial'==$post_type ) {
+		if( is_admin() && 'bamboo_testimonial'==$post_type ) {
 			return "Enter testimonial author here";
 		}
 
