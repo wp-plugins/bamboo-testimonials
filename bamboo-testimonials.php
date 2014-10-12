@@ -3,7 +3,7 @@
 /*
 Plugin Name: Bamboo Testimonials
 Plugin URI:  http://www.bamboosolutions.co.uk/wordpress/bamboo-testimonials
-Author:      Bamboo
+Author:      Bamboo Solutions
 Author URI:  http://www.bamboosolutions.co.uk
 Version:     1.0
 Description: Easily manage testimonials and display them throughout your website.
