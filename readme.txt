@@ -1,4 +1,4 @@
-=== Bamboo Testimonails ===
+=== Bamboo Testimonials ===
 Contributors: Bamboo Solutions
 Donate link: http://www.bamboosolutions.co.uk
 Tags: testimonials, shortcodes, custom post type
