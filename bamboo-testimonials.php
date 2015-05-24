@@ -3,17 +3,11 @@
 /*
 Plugin Name: Bamboo Testimonials
 Plugin URI:  http://www.bamboosolutions.co.uk/wordpress/bamboo-testimonials
-Author:      Bamboo Solutions
+Author:      Bamboo
 Author URI:  http://www.bamboosolutions.co.uk
 Version:     1.0
 Description: Easily manage testimonials and display them throughout your website.
 */
-/**************************************************************************************************/
-
-	add_action( 'init', 'bamboo_testimonials_init' );
-	add_filter( 'enter_title_here', 'bamboo_testimonials_enter_title_here' );
-	add_shortcode( 'bamboo-testimonial', 'bamboo_testimonial' );
-
 /**************************************************************************************************/
 
 	function bamboo_testimonials_init() {
@@ -45,6 +39,7 @@ Description: Easily manage testimonials and display them throughout your website
 		register_post_type( 'bamboo_testimonial', $args );
 
 	}
+	add_action( 'init', 'bamboo_testimonials_init' );
 
 /**************************************************************************************************/
 
@@ -59,6 +54,7 @@ Description: Easily manage testimonials and display them throughout your website
 		return $prompt;
 
 	}
+	add_filter( 'enter_title_here', 'bamboo_testimonials_enter_title_here' );
 
 /**************************************************************************************************/
 
@@ -75,6 +71,7 @@ Description: Easily manage testimonials and display them throughout your website
 
 		return $html;
 	}
+	add_shortcode( 'bamboo-testimonial', 'bamboo_testimonial' );
 
 /**************************************************************************************************/
 ?>
