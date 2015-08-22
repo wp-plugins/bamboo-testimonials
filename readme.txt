@@ -1,5 +1,5 @@
 === Bamboo Testimonails ===
-Contributors: Bamboo Solutions
+Contributors: bamboosolutions
 Donate link: http://www.bamboosolutions.co.uk
 Tags: testimonials, shortcodes, custom post type
 Requires at least: 3.0.1
